@@ -1306,3 +1306,38 @@ section .container {
     width: 100%;
     height: 100%;
 }
+
+/*--------------------------------------------------------------
+# Map
+--------------------------------------------------------------*/
+
+#map {
+    height: 500px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem auto 0 auto;
+}
+
+.map-tooltip-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-tooltip-title {
+    color: #040404;
+}
+
+.map-tooltip-link{
+    padding: .5rem 1.5rem;
+    background-color: #2e2707;
+    border-radius: .25rem;
+    font-weight: bold;
+}
+
+.map-tooltip-link:hover{
+    color: #999;
+}
